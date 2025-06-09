@@ -9,20 +9,20 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.packname = 'Bot WhatsApp'
-global.author = 'Nazedev'
-global.botname = 'Naze Bot'
+global.owner = ['212637915359'] //['628','628'] 2 owner atau lebih
+global.packname = 'الستيكر ذا بتاع جواد اللي يسرقوا gay'
+global.author = 'Jawad'
+global.botname = 'IsHaQ-MD'
 global.listprefix = ['+','!','.']
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
-global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
+global.number_bot = '212637915359' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	thumbnailUrl: 'https://i.ibb.co/FkTV96MG/naze.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
@@ -30,9 +30,9 @@ global.fake = {
 
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
-	ch: '120363250409960161@newsletter',
+	gh: 'https://github.com/jawadhusa',
+	gc: 'https://chat.whatsapp.com/IoWgA7cQT2rHihDP0xQwNr',
+	ch: '0029VbAD3GrIHphJRlJzqG2j@newsletter',
 }
 
 global.limit = {
@@ -48,17 +48,17 @@ global.money = {
 }
 
 global.mess = {
-	key: 'Apikey mu telah habis silahkan kunjungi\nhttps://my.hitori.pw',
-	owner: 'Fitur Khusus Owner!',
-	admin: 'Fitur Khusus Admin!',
-	botAdmin: 'Bot Bukan Admin!',
-	group: 'Gunakan Di Group!',
-	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
-	prem: 'Khusus User Premium!',
-	wait: 'Loading...',
-	error: 'Error!',
-	done: 'Done'
+	key:   🔑 انتهت صلاحية مفتاح API الخاص بك، يرجى زيارة\nhttps://my.hitori.pw ,
+	owner:   👑 هذه الميزة خاصة بالمالك فقط! ,
+	admin:   🛡️ هذه الميزة خاصة بالمشرفين فقط! ,
+	botAdmin:   🤖 يجب أن يكون البوت مشرفاً لاستخدام هذا الأمر! ,
+	group:   👥 هذا الأمر للاستخدام في المجموعات فقط! ,
+	private:   💬 هذا الأمر للاستخدام في الدردشة الخاصة فقط! ,
+	limit:   ❌ لقد استهلكت حدك اليومي! ,
+	prem:   💎 هذه الميزة خاصة بالمستخدمين المميزين فقط! ,
+	wait:   ⏳ جاري التحميل... ,
+	error:   ❗ حدث خطأ! ,
+	done:   ✅ تم 
 }
 
 global.APIs = {
